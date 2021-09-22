@@ -59,6 +59,16 @@ p, a {
     padding-right: 15px;
 }
 
+.white-btn {
+    background-color: white;
+    color: black
+}
+
+.dark-btn {
+    background-color: #353c45;
+    color: white
+}
+
 /* header */
 .brand img {
     height: 27px;
@@ -103,4 +113,58 @@ p, a {
     padding: 10px 12px;
     border-radius: 20px;
     color: black
+}
+
+
+/* Banner */
+.banner-img {
+    height: 500px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover
+}
+
+.banner-content h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+
+.banner-content p {
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: 40px auto 0 auto;
+    
+}
+
+.button-content {
+    height: 100px;
+
+    width: 523px;
+    display:block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px
+   
+}
+
+.button-content button {
+    border: none;
+    padding: 20px 25px;
+    font-size: 19px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.button-content button:last-child {
+    margin: 0
+}
+
+.button-content i {
+    margin-right: 10px
 }
