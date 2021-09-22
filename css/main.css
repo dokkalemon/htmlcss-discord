@@ -4,4 +4,103 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+p, a {   
+    font-size: 14px
+}
+
+
+
+/* Utilities */
+.full-width {
+    height: auto;
+    width: 100vw;
+    background-color: red
+}
+
+.blue {
+    background-color: #3161e0
+}
+
+.conteiner {
+    width: 1080px;
+    contenuto */
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.col {
+    float: left;
+    position: relative
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%
+}
+
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.p-20 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* header */
+.brand img {
+    height: 27px;
+    margin: 15px 0px;
+    vertical-align: middle;
+  
+}
+
+.brand a {
+    
+}
+
+.menu-list ul li {
+    display: inline-block;
+    margin-right: 35px;
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 20px
+}
+
+.menu-list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.log-in-conteiner {
+ position: absolute;
+ right: 0;
+ top: 0;
+ height: 100%
+}
+
+.log-in-item {
+    position: absolute;
+    right: 0;
+    top: 20px
+}
+.log-in-item p {
+    display: inline;
+    text-align: right;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 20px;
+    color: black
 }
